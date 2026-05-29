@@ -41,3 +41,28 @@ def tangente(graus):
     if graus % 180 == 90:
         raise ValueError("ERRO: tangente indefinida para esse ângulo.")
     return math.tan(math.radians(graus))
+
+# Interface
+
+MENU = """
+╔══════════════════════════════════╗
+║      CALCULADORA CIENTÍFICA      ║
+╠══════════════════════════════════╣
+║  OPERAÇÕES BÁSICAS               ║
+║   1. Soma                        ║
+║   2. Subtração                   ║
+║   3. Multiplicação               ║
+║   4. Divisão                     ║
+╠══════════════════════════════════╣
+║  POTÊNCIA E RAIZ                 ║
+║   5. Potência                    ║
+║   6. Raiz Quadrada               ║
+╠══════════════════════════════════╣
+║  TRIGONOMETRIA                   ║
+║   7. Seno                        ║
+║   8. Cosseno                     ║
+║   9. Tangente                    ║
+╠══════════════════════════════════╣
+║   0. Sair                        ║
+╚══════════════════════════════════╝
+"""
