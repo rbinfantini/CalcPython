@@ -13,7 +13,16 @@ def multiplicacao(a, b):
 
 def divisao(a, b):
     if b== 0:
-        raise ValueError("ERR): Divisão por zero não existe.")
+        raise ValueError("ERRO: Divisão por zero não existe.")
     return a / b
 
+# Potencia e raiz
 
+def potencia(base, exp):
+    return math.pow(base, exp)
+
+
+def raiz_quadrada(n):
+    if n < 0:
+        raise ValueError("ERRO: raiz quadrada de número negativo não existe.")
+    return math.sqrt(n)
