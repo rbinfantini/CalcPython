@@ -18,7 +18,6 @@ Calculadora científica desenvolvida em Python com interface no terminal.
 - Operações básicas: soma, subtração, multiplicação e divisão
 - Potência e raiz quadrada
 - Trigonometria: seno, cosseno e tangente (entrada em graus)
-- Logaritmos: base 10 e natural
 
 ## Tecnologias
 
