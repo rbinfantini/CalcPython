@@ -12,6 +12,8 @@ def multiplicacao(a, b):
     return a * b
 
 def divisao(a, b):
+    if b== 0:
+        raise ValueError("ERR): Divisão por zero não existe.")
     return a / b
 
 
