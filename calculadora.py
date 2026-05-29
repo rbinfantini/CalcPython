@@ -26,3 +26,18 @@ def raiz_quadrada(n):
     if n < 0:
         raise ValueError("ERRO: raiz quadrada de número negativo não existe.")
     return math.sqrt(n)
+
+# Trigonometria
+
+def seno(graus):
+    return math.sin(math.radians(graus))
+
+
+def cosseno(graus):
+    return math.cos(math.radians(graus))
+
+
+def tangente(graus):
+    if graus % 180 == 90:
+        raise ValueError("ERRO: tangente indefinida para esse ângulo.")
+    return math.tan(math.radians(graus))
